@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos do Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Principais Comandos do Git</h1>
+    <h2>Configuração</h2>
+    <pre><code>git config --global user.name "Seu Nome"
+git config --global user.email "seu-email@example.com"</code></pre>
+
+    <h2>Criação e Clonagem de Repositórios</h2>
+    <pre><code>git init
+git clone URL_do_Repositório</code></pre>
+
+    <h2>Comandos Básicos</h2>
+    <pre><code>git status
+git add nomedoarquivo
+git commit -m "mensagem do commit"
+git log</code></pre>
+
+    <h2>Trabalhando com Branches</h2>
+    <pre><code>git branch
+git checkout nomedobranch
+git checkout -b novobranch
+git merge nomedobranch
+git branch -d nomedobranch</code></pre>
+
+    <h2>Atualizando e Enviando para o Repositório Remoto</h2>
+    <pre><code>git pull origin nomedobranch
+git push origin nomedobranch</code></pre>
+
+    <h2>Desfazendo Alterações</h2>
+    <pre><code>git reset HEAD nomedoarquivo
+git checkout nomedoarquivo</code></pre>
+
+    <h2>Revertendo Commits</h2>
+    <pre><code>git log
+git revert HASH_DO_COMMIT</code></pre>
+
+    <h2>Ignorando Arquivos</h2>
+    <pre><code># Crie um arquivo chamado .gitignore e adicione os nomes dos arquivos/diretórios que deseja ignorar.
+# Exemplo:
+logs/
+node_modules/
+secretfile.txt</code></pre>
+
+    <h2>Visualizando Diferenças</h2>
+    <pre><code>git diff
+git diff nomedoarquivo</code></pre>
+
+</body>
+</html>
