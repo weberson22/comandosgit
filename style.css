@@ -37,3 +37,21 @@ pre {
 pre code {
     display: block;
 }
+
+a.button-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #ffcc00;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.button-link:hover {
+    background-color: #ff9900;
+}
